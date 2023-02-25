@@ -1,12 +1,186 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/normalize.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="css/style.css">
+
     <title>Web Retro</title>
 </head>
+
 <body>
-    <h1>Holaaaaaaaa</h1>
+
+    <header class="header">
+        <svg class="btn-menu-lateral" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+            <path d="M4 6h16v2H4zm0 5h16v2H4zm0 5h16v2H4z"></path>
+        </svg>
+    </header>
+
+    <div>
+
+        <div class="menu-screen-black" id="menu-screen-black"></div>
+
+        <nav id="menu-lateral" class="menu-nav">
+
+            <div class="menu-nav__title">
+
+                <!-- <svg class="btn-menu-lateral" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                    viewBox="0 0 24 24">
+                    <path d="M21 11H6.414l5.293-5.293-1.414-1.414L2.586 12l7.707 7.707 1.414-1.414L6.414 13H21z"></path>
+                </svg> -->
+
+                <h3>Web Retro</h3>
+
+                <svg class="btn-menu-lateral" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+                    <path
+                        d="m16.192 6.344-4.243 4.242-4.242-4.242-1.414 1.414L10.535 12l-4.242 4.242 1.414 1.414 4.242-4.242 4.243 4.242 1.414-1.414L13.364 12l4.242-4.242z">
+                    </path>
+                </svg>
+
+            </div>
+
+            <hr class="menu-nav__title">
+
+            <div class="menu-nav__list">
+
+                <a class="nav__btn" href="#">
+
+                    <svg class="nav__btn--icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                        viewBox="0 0 24 24">
+                        <path
+                            d="m21.743 12.331-9-10c-.379-.422-1.107-.422-1.486 0l-9 10a.998.998 0 0 0-.17 1.076c.16.361.518.593.913.593h2v7a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-4h4v4a1 1 0 0 0 1 1h3a1 1 0 0 0 1-1v-7h2a.998.998 0 0 0 .743-1.669z">
+                        </path>
+                    </svg>
+
+                    <span class="nav__btn--span">
+                        Home
+                    </span>
+
+                </a>
+
+                <a class="nav__btn" href="#">
+
+                    <svg class="nav__btn--icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                        viewBox="0 0 24 24">
+                        <path
+                            d="M12 2C6.486 2 2 6.486 2 12s4.486 10 10 10 10-4.486 10-10S17.514 2 12 2zm3.293 14.707L11 12.414V6h2v5.586l3.707 3.707-1.414 1.414z">
+                        </path>
+                    </svg>
+
+                    <span class="nav__btn--span">
+                        History
+                    </span>
+
+                </a>
+
+                <a class="nav__btn" href="#">
+
+                    <svg class="nav__btn--icon" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                        viewBox="0 0 24 24">
+                        <path
+                            d="M16 2H8C4.691 2 2 4.691 2 8v13a1 1 0 0 0 1 1h13c3.309 0 6-2.691 6-6V8c0-3.309-2.691-6-6-6zm-5 10.5A1.5 1.5 0 0 1 9.5 14c-.086 0-.168-.011-.25-.025-.083.01-.164.025-.25.025a2 2 0 1 1 2-2c0 .085-.015.167-.025.25.013.082.025.164.025.25zm4 1.5c-.086 0-.167-.015-.25-.025a1.471 1.471 0 0 1-.25.025 1.5 1.5 0 0 1-1.5-1.5c0-.085.012-.168.025-.25-.01-.083-.025-.164-.025-.25a2 2 0 1 1 2 2z">
+                        </path>
+                    </svg>
+
+                    <span class="nav__btn--span">
+                        About us
+                    </span>
+
+                </a>
+
+            </div>
+        </nav>
+    </div>
+
+    <main class="main">
+        <section class="section section-nin64">
+
+            <div class="margin-container">
+                <div class="section__title title-nin64">
+                    <h1 class="title1">History of</h1>
+                    <h1 class="title2">Nintendo<span class="title2__add">64</span></h1>
+                </div>
+
+                <div class="section__description">
+
+                    <select class="description__select" name="date" id="">
+                        <option class="select__option" value="">1977</option>
+                        <option class="select__option" value="">1982</option>
+                        <option class="select__option" value="">1983</option>
+                        <option class="select__option" value="">1986</option>
+                        <option class="select__option" value="">1988</option>
+                        <option class="select__option" value="">1990</option>
+                        <option class="select__option" value="">1994</option>
+                        <option class="select__option" value="">1996</option>
+                        <option class="select__option" value="">1998</option>
+                        <option class="select__option" value="">2000</option>
+                    </select>
+
+                    <p class="description__p">
+                        La Nintendo 64 es una consola de videojuegos que fue lanzada por Nintendo en 1996. Es una de las
+                        primeras consolas de 64 bits, lo que permitió a los desarrolladores de juegos crear mundos más
+                        grandes y detallados que los que eran posibles en las consolas anteriores.
+                    </p>
+
+                    <button class="description__btn description__btn-nin64">Ver más</button>
+                </div>
+
+            </div>
+
+            <div class="section__img">
+                <img class="img-console" src="./assets/img/console/img-nintendo-64.png" alt="nintendo 64">
+                <img class="img-characters" src="./assets/img/characters/img-links.png" alt="link">
+            </div>
+
+        </section>
+        <section class="section section-nin64">
+
+            <div class="margin-container">
+                <div class="section__title title-nin64">
+                    <h1 class="title1">History of</h1>
+                    <h1 class="title2">Nintendo<span class="title2__add">64</span></h1>
+                </div>
+
+                <div class="section__description">
+
+                    <select class="description__select" name="date" id="">
+                        <option class="select__option" value="">1977</option>
+                        <option class="select__option" value="">1982</option>
+                        <option class="select__option" value="">1983</option>
+                        <option class="select__option" value="">1986</option>
+                        <option class="select__option" value="">1988</option>
+                        <option class="select__option" value="">1990</option>
+                        <option class="select__option" value="">1994</option>
+                        <option class="select__option" value="">1996</option>
+                        <option class="select__option" value="">1998</option>
+                        <option class="select__option" value="">2000</option>
+                    </select>
+
+                    <p class="description__p">
+                        La Nintendo 64 es una consola de videojuegos que fue lanzada por Nintendo en 1996. Es una de las
+                        primeras consolas de 64 bits, lo que permitió a los desarrolladores de juegos crear mundos más
+                        grandes y detallados que los que eran posibles en las consolas anteriores.
+                    </p>
+
+                    <button class="description__btn">Ver más</button>
+                </div>
+
+            </div>
+
+            <div class="section__img">
+                <img class="img-console" src="./assets/img/console/img-nintendo-64.png" alt="nintendo 64">
+                <img class="img-characters" src="./assets/img/characters/img-links.png" alt="link">
+            </div>
+
+        </section>
+    </main>
+
+    <script src="js/menu.js"></script>
 </body>
+
 </html>
